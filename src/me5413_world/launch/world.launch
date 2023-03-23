@@ -10,6 +10,7 @@
         <arg name="paused" value="false"/>
         <arg name="use_sim_time" value="true"/>
         <arg name="headless" value="false"/>
+        
     </include>
 
     <!-- Add our jackal robot into the simulation -->
