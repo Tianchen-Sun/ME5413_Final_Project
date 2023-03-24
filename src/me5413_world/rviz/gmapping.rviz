@@ -249,8 +249,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 9.293124198913574
-            Min Value: -1.1756149530410767
+            Max Value: 6.4426140785217285
+            Min Value: -3.4946255683898926
             Value: true
           Axis: X
           Channel Name: intensity
@@ -277,8 +277,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 2.2337965965270996
-            Min Value: -0.32747718691825867
+            Max Value: 2.0130791664123535
+            Min Value: -0.312801331281662
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -356,7 +356,7 @@ Visualization Manager:
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
-      Topic: /move_base/TrajectoryPlannerROS/local_plan
+      Topic: /move_base/TrajectoryPlannerROS/global_plan
       Unreliable: false
       Value: true
     - Alpha: 0.699999988079071
@@ -451,9 +451,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.39479637145996094
+      Pitch: 1.1697962284088135
       Target Frame: base_link
-      Yaw: 3.4349982738494873
+      Yaw: 1.1499972343444824
     Saved:
       - Class: rviz/ThirdPersonFollower
         Distance: 4
@@ -507,5 +507,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 2548
-  X: 0
-  Y: 0
+  X: -32
+  Y: -32

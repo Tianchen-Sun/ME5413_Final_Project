@@ -16,4 +16,8 @@ global_costmap:
    # - {name: obstacles_layer, type: "costmap_2d::ObstacleLayer"}
    # - {name: inflater_layer, type: "costmap_2d::InflationLayer"}
    
+   #---
+   # FOR SPATIAL TEMPORAL
+   # plugins:
+   # - {name: rgbd_obstacle_layer,     type: "spatio_temporal_voxel_layer/SpatioTemporalVoxelLayer"}
 
