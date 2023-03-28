@@ -239,8 +239,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 14.862592697143555
-            Min Value: 6.119723320007324
+            Max Value: 8.761582374572754
+            Min Value: -0.8169863820075989
             Value: true
           Axis: X
           Channel Name: intensity
@@ -267,8 +267,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 4.196062088012695
-            Min Value: -0.3288535177707672
+            Max Value: 4.199390411376953
+            Min Value: -0.3293551802635193
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -492,22 +492,22 @@ Visualization Manager:
           Class: rviz/Map
           Color Scheme: map
           Draw Behind: false
-          Enabled: false
+          Enabled: true
           Name: Global CostMap
           Topic: /move_base/global_costmap/costmap
           Unreliable: false
           Use Timestamp: false
-          Value: false
+          Value: true
         - Alpha: 0.699999988079071
           Class: rviz/Map
           Color Scheme: map
           Draw Behind: false
-          Enabled: false
+          Enabled: true
           Name: Local CostMap
           Topic: /move_base/local_costmap/costmap
           Unreliable: false
           Use Timestamp: false
-          Value: false
+          Value: true
       Enabled: true
       Name: Planning
     - Class: rviz/Group
@@ -696,7 +696,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
-      Distance: 20.35075569152832
+      Distance: 17.90866470336914
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -770,7 +770,7 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1848
-  X: 133
-  Y: 224
+  X: -32
+  Y: -32
   simplePanel:
     collapsed: false

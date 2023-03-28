@@ -15,3 +15,7 @@ global_costmap:
    # - {name: static_layer, type: "costmap_2d::StaticLayer"}
    # - {name: obstacles_layer, type: "costmap_2d::ObstacleLayer"}
    # - {name: inflater_layer, type: "costmap_2d::InflationLayer"}
+   prohibition_areas: 
+   - [[0, -15.614],
+      [0, -13.89],
+      [0, -12.218]] 

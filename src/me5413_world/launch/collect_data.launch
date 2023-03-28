@@ -4,7 +4,7 @@
   <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" respawn="true"/>
   
   <!-- Launch GMapping -->
-  <include file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/launch/include/gmapping.launch" />
+  <!-- <include file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/launch/include/gmapping.launch" /> -->
   
    <!-- Launch Move Base -->
   <include file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/launch/include/move_base.launch" />

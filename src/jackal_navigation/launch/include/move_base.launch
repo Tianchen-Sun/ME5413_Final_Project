@@ -5,6 +5,8 @@
     <rosparam file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
     <rosparam file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
     
+    <rosparam file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/params/prohibition_area_params.yaml" command="load" ns="global_costmap/costmap_prohibition_layer" />
+    
     <rosparam file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/params/map_nav_params/local_costmap_params.yaml" command="load" />
     <rosparam file="/home/tianchensun/ME5413_Final_Project/src/jackal_navigation/params/map_nav_params/global_costmap_params.yaml" command="load" />
     
