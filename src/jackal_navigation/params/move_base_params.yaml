@@ -11,3 +11,8 @@ oscillation_distance: 0.5
 
 recovery_behavior_enabled: true
 clearing_rotation_allowed: true
+
+## planner choice is in move_base.launch
+# base_global_planner: "global_planner/GlobalPlanner" 
+
+#alternatives: navfn/NavfnROS; global_planner/GlobalPlanner; carrot_planner/CarrotPlanner

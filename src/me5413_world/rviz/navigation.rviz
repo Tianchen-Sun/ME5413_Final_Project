@@ -10,8 +10,10 @@ Panels:
         - /Sensing1
         - /Localization1
         - /Planning1
+        - /Planning1/Local CostMap1
         - /Evaluation1
         - /PointCloud21
+        - /Path1
       Splitter Ratio: 0.6628242135047913
     Tree Height: 912
   - Class: rviz/Selection
@@ -240,8 +242,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 8.896215438842773
-            Min Value: -0.7716682553291321
+            Max Value: 17.977153778076172
+            Min Value: 12.437189102172852
             Value: true
           Axis: X
           Channel Name: intensity
@@ -268,8 +270,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 4.20767068862915
-            Min Value: -0.3284095525741577
+            Max Value: 2.148622512817383
+            Min Value: -0.46722495555877686
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -304,7 +306,6 @@ Visualization Manager:
           Unreliable: false
           Value: false
           Visibility:
-            "": true
             Evaluation:
               Absolute Error:
                 ADE (m): true
@@ -322,6 +323,7 @@ Visualization Manager:
               AMCL PoseWithCovariance: true
               Map: true
               Value: true
+            Path: true
             Planning:
               Foot Print: true
               Full Path: true
@@ -330,6 +332,7 @@ Visualization Manager:
               Local CostMap: true
               Local Path: true
               Value: true
+            PointCloud2: true
             RobotModel: true
             Sensing:
               Image: true
@@ -502,7 +505,7 @@ Visualization Manager:
           Value: true
         - Alpha: 0.699999988079071
           Class: rviz/Map
-          Color Scheme: map
+          Color Scheme: costmap
           Draw Behind: false
           Enabled: true
           Name: Local CostMap
@@ -698,6 +701,30 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/GlobalPlanner/plan
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -726,7 +753,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/ThirdPersonFollower
-      Distance: 10.086160659790039
+      Distance: 5.126674175262451
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -734,17 +761,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.8999999761581421
       Focal Point:
-        X: 0.7626851797103882
-        Y: -1.262526035308838
+        X: -0.2621239423751831
+        Y: -0.9657785892486572
         Z: -1.430511474609375e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9497963786125183
+      Pitch: 0.6947963237762451
       Target Frame: base_link
-      Yaw: 3.9900031089782715
+      Yaw: 2.5800042152404785
     Saved:
       - Class: rviz/ThirdPersonFollower
         Distance: 4

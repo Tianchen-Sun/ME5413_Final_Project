@@ -5,7 +5,7 @@
 
   <!-- Run the map server -->
   <!-- <arg name="map_file" default="$(find me5413_world)/maps/my_map.yaml"/> -->
-  <arg name="map_file" default="$(find me5413_world)/maps/whole_map_2.yaml"/>
+  <arg name="map_file" default="$(find me5413_world)/maps/map_a_loam.yaml"/>
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
   
   <!-- Launch the AMCL Localizer -->
